@@ -1,10 +1,81 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-AU">
 <head>
-<title> Home </title>
-<link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Unofficial student-designed interface concept for an IT professional practice unit page.">
+  <title>Professional Practice in IT | Student UI concept</title>
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
-<h1>SIT223-SIT753 - Professional Practice in IT</h1>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="Unit page concept home">
+        <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+        <span>Unit page <strong>concept</strong></span>
+      </a>
+      <nav aria-label="Page sections" class="nav-links">
+        <a href="#overview">Overview</a>
+        <a href="#features">Features</a>
+        <a href="#checklist">Checklist</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero shell" id="top" aria-labelledby="page-title">
+      <div>
+        <p class="eyebrow">SIT223 / SIT753 · Student web design concept</p>
+        <h1 id="page-title">Professional Practice <span>in IT</span></h1>
+        <p class="lead">A simple, accessible layout experiment for presenting unit information with clearer navigation and a responsive design.</p>
+        <a class="button" href="#overview">Explore the page <span aria-hidden="true">→</span></a>
+        <p class="disclaimer">Unofficial student-made concept. Not a Deakin University course information page.</p>
+      </div>
+      <div class="preview" aria-label="Decorative wireframe of a course dashboard" role="img">
+        <div class="preview-top"><span></span><span></span><span></span></div>
+        <div class="preview-heading"></div>
+        <div class="preview-line"></div><div class="preview-line short"></div>
+        <div class="preview-cards"><div></div><div></div><div></div></div>
+      </div>
+    </section>
+    <section class="section muted" id="overview" aria-labelledby="overview-title">
+      <div class="shell">
+        <p class="eyebrow">01 / Overview</p>
+        <h2 id="overview-title">A clearer starting point</h2>
+        <p class="section-intro">The original project was a minimal HTML heading. This redesign explores how spacing, headings, navigation and card patterns can make a page easier to scan.</p>
+        <div class="card-grid">
+          <article class="card"><span class="card-index">01</span><h3>Understand the page</h3><p>A prominent page title and introduction communicate the purpose of the interface.</p></article>
+          <article class="card"><span class="card-index">02</span><h3>Find a section</h3><p>Anchor links make it easier to move between the overview, features and checklist.</p></article>
+          <article class="card"><span class="card-index">03</span><h3>Use any screen</h3><p>A flexible grid and responsive type keep content readable on mobile and desktop.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="features" aria-labelledby="features-title">
+      <div class="shell split">
+        <div>
+          <p class="eyebrow">02 / Features</p>
+          <h2 id="features-title">Built with simple web fundamentals</h2>
+          <p class="section-intro">This static interface uses semantic HTML and CSS without a JavaScript framework.</p>
+        </div>
+        <ul class="feature-list">
+          <li><span class="check" aria-hidden="true">✓</span> Semantic page landmarks and heading hierarchy</li>
+          <li><span class="check" aria-hidden="true">✓</span> Visible keyboard focus and a skip-navigation link</li>
+          <li><span class="check" aria-hidden="true">✓</span> Mobile-responsive CSS Grid layout</li>
+          <li><span class="check" aria-hidden="true">✓</span> Reduced-motion preference supported</li>
+        </ul>
+      </div>
+    </section>
+    <section class="section muted" id="checklist" aria-labelledby="checklist-title">
+      <div class="shell">
+        <p class="eyebrow">03 / Checklist</p>
+        <h2 id="checklist-title">Design review notes</h2>
+        <div class="note">
+          <p><strong>Scope:</strong> An illustrative web-design project. This page does not provide official unit assessments, teaching materials, deadlines or university advice.</p>
+          <p><strong>Next iteration:</strong> Run usability testing, review colour contrast and use approved course content if permission is available.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="shell">Student HTML/CSS portfolio concept · Not an official Deakin University website.</div></footer>
 </body>
 </html>
